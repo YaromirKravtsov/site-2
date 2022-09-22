@@ -111,8 +111,7 @@
  .wraper{
 	min-width: 100%;
 	background-color: rgb(37, 38, 39);
-	/* display: flex; */
-	/* justify-content: center; */
+	overflow:hidden;
 }
 .container{
 	width: 1500px;
@@ -215,6 +214,7 @@ body._lock{
 }
 
 @media (max-width: 846px){
+	
 	.menu__link__center-text {
 		font-family: 'Clear Sans';
 	font-size: 30px;
@@ -594,8 +594,7 @@ margin-left: 30px;
 	.content1 {
 	justify-content: center;
 
-	height: 1330px;
-	background-size: 100% 1330px;
+		background-color: #ffece1;
 	}
 	.content1__right {
 		align-items: center;
@@ -624,8 +623,8 @@ margin-left: 30px;
 	
 	  .content1 {
 		
-		height: 1930px;
-		background-size: 100% 1930px;
+background: none;
+	background-color: #ffece1;
 	  }
 	  .content1__right_midle_down-lefttext {
 		transform: rotate(0deg);
@@ -1078,6 +1077,7 @@ height: 24px;
 	  }
 	  .content4-title-text {
 		text-align: center;
+		font-size: 90px;
 	}
 	.content4-text {
 		text-align: center;
