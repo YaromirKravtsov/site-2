@@ -598,7 +598,7 @@ margin-left: 30px;
 	}
 	.content1__right {
 		align-items: center;
-		margin-top: 100px;
+	    margin-top: 200px;
 	  }
 	  .content1__right-bigtext {
 		margin-top: -100px;
@@ -1013,7 +1013,6 @@ margin: 25px 15px;
 	font-weight: 700;
 	color: #ffece1;
 	margin-top: 50px;
-	text-align: center;
 }
 .content4-text {
 	font-family: 'Clear Sans';
@@ -1078,6 +1077,7 @@ height: 24px;
 	  .content4-title-text {
 		text-align: center;
 		font-size: 90px;
+		
 	}
 	.content4-text {
 		text-align: center;
@@ -1493,4 +1493,5 @@ color: #ffece1;
 	background: url('assets/img/footer__icon3.png') no-repeat;
 	width: 30px;
 	height: 30px;
+	background-size: 30px  30px;
 }
