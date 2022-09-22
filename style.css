@@ -1205,7 +1205,7 @@ height: 24px;
 	display: none;
   }
   .content5__right {
-	margin-right: 20px;
+	margin-right: 60px;
 	margin-left: 0;
 	width: 30%;
   }
@@ -1233,6 +1233,7 @@ height: 24px;
 @media (max-width: 570px){
 	.content5 {
 		background: none;
+		background-color: #ffece1;
 	}
 	.content5__right-text {
 		color: #dd7017;
